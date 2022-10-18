@@ -1,0 +1,30 @@
+.containerstyle{
+    width: 100%;
+    height: 100%;
+}
+
+.img-fluid{
+    rounded-start: 10px;
+    height: 100%;
+    justify-content: center;
+    
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    font-weight: bold;
+}
+
+li {
+    font-weight: normal;
+    list-style:none;
+}
+
+h4 {
+    font-size: 23px;
+    font-weight: bold;
+}

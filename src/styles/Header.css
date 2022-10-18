@@ -1,0 +1,17 @@
+h1 {
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 4px #0000;
+}
+  
+  h6 {
+    font-size: 25px;
+  }
+
+
+.header {
+    background-image: url("../../public/assets/img/banner2.png");
+    background-size: cover;
+    height: 30vh;
+  }
+  
