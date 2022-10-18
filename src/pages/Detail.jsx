@@ -26,7 +26,7 @@ const Detail = () => {
                 <hr />
                 <p className="card-text mb-2 mt-2">{pizzaInfo.desc}</p>
                 <hr />
-                <ul className="mt-2 mb-2 subti">
+                <ul className="mt-2 mb-2 subti text-capitalize">
                   Ingredientes:
                   {pizzaInfo.ingredients?.map((ingredient, i) => (
                     <li key={i}>{ingredient}</li>

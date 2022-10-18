@@ -24,11 +24,11 @@ const Card = () => {
                         <div className="card-body">
                             <p className="card-title text-center text-capitalize"><strong>Pizza {pizza.name} </strong></p>
                             <hr />
-                            <p className="card-text text-center mt-2">
+                            <p className="card-text text-center mt-2 ">
                                 <b>Ingredientes: </b>
                             </p>
 
-                            <ul className="text-center mt-2">
+                            <ul className="text-center mt-2 text-capitalize">
                                 {pizza.ingredients.map((ingredient, i)=>(
                                     <li key={i}>{ingredient}</li>
                                 ))}
@@ -36,7 +36,7 @@ const Card = () => {
                                     <hr className="mt-3"/>
                         </div>
 
-                        <h2 className="text-center mt-1 mb-3"><strong>
+                        <h2 className="text-center mt-1 mb-3 text-xl"><strong>
                             Precio: {pizza.price.toLocaleString(
                                 "es-CL",{
                                     style: "currency",

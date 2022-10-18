@@ -1,3 +1,17 @@
+# Mamma Mia App
+Through the use of react routing and context, the objective of this project was to creat a mini ecommerce app (at least from a front end point of view) in which by using such components you are able to show dynamically the content from the given JSON file, and also to add such components to the cart in order to get the total purchase reflected on those items.
+
+# Review the project deployed on netlify: 
+https://lively-youtiao-c407c5.netlify.app
+
+
+# Check the project on GitHub: 
+https://github.com/diegoalmeidaz/desafio_5.4_prueba_react_router_2
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

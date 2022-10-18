@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className="navbar text-white bg-info">
       <div className="container d-block">
-        <div className="d-flex justify-content-between bg-slate-500">
+        <div className="d-flex justify-content-between">
           <Link to="/" className="mx-1 mb-0">
             <h2 className="mb-0 font-bold p-2">
              
@@ -22,7 +22,7 @@ const Navbar = () => {
             </h2>
           </Link>
 
-          <Link to="/carrito" className="logo-nombre mx-1 mb-0 p-2">
+          <Link to="/carrito" className="logo-nombre mx-1 mb-0 p-2 font-extrabold">
             <p className="carritotext">🛒 Total: {total.toLocaleString(
                                 "es-CL",{
                                     style: "currency",
