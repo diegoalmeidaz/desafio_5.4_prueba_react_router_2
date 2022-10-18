@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className="navbar text-white bg-info fixed-top">
       <div className="container d-block">
-        <div className="d-flex justify-content-between">
+        <div className="d-flex justify-content-between items-center">
           <Link to="/" className="mx-1 mb-0">
             <h2 className="mb-0 font-bold p-2">
              
