@@ -10,7 +10,7 @@ const Detail = () => {
 
   return (
     <>
-      <div className="container mt-5">
+      <div className="container mt-20">
         <div className="card containerstyle mb-3" >
           <div className="row g-0">
             <div className="col-md-6">

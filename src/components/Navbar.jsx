@@ -12,7 +12,7 @@ const Navbar = () => {
     0
   );
   return (
-    <div className="navbar text-white bg-info">
+    <div className="navbar text-white bg-info fixed-top">
       <div className="container d-block">
         <div className="d-flex justify-content-between">
           <Link to="/" className="mx-1 mb-0">
