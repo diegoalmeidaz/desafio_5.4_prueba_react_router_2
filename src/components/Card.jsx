@@ -33,7 +33,7 @@ const Card = () => {
                                     <li key={i}>{ingredient}</li>
                                 ))}
                             </ul>
-
+                                    <hr className="mt-3"/>
                         </div>
 
                         <h2 className="text-center mt-1 mb-3"><strong>
@@ -46,7 +46,7 @@ const Card = () => {
                         </strong>
                         </h2>
 
-                        <div className="d-flex justify-content-around mb-4">
+                        <div className="d-flex justify-content-evenly mb-4">
                             <button
                             className="btn btn-info text-white"
                             to={`/pizza/${pizza.id}`}

@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 
-import PizzasContext from "../context/Context";
+import Context from "../context/Context";
 
 
 
 const Navbar = () => {
-  const { cart } = useContext(PizzasContext);
+  const { cart } = useContext(Context);
   const total = cart.reduce(
     (a, { count, price }) => a + price * count,
     0
